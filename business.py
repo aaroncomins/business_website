@@ -15,14 +15,14 @@ import numpy as np
 # from modules.pages import pages
 
         
-class main(pages):
+class main():
     def __init__(self):
         self.main()
     
     def main(self):
-        st.set_page_config(layout="wide")
+        # st.set_page_config(layout="wide")
         with st.sidebar:
-            st.sidebar.image("media/IDST.png")
+            # st.sidebar.image("media/IDST.png") 
             selected = option_menu(
                 menu_title = "Rag, Tin, and Roll Designs",
                 options = ["Home",  
